@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 app.config['UPLOAD_FOLDER'] = "./static/profile_pics"
 
-SECRET_KEY = 'SPARTA'
+SECRET_KEY = 'NotToTell'
 
 client = MongoClient('', , username="", password="")
 db = client.dbsparta_plus_week4
